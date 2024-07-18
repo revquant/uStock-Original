@@ -29,6 +29,23 @@
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+    button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .max-gain {
+      text-align: center;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -36,6 +53,9 @@
   <div class="stock-price" id="stockPrice">$100</div>
   
   <canvas id="stockGraph" width="200" height="200"></canvas>
+
+  <button id="increaseGainButton">Increase Stock Gain ($150)</button>
+  <div class="max-gain" id="maxGain">Current Max Stock Gain is 45</div>
 
   <script src="popup.js"></script>
 </body>

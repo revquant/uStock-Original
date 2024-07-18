@@ -1,8 +1,8 @@
 {
-  "manifest_version": 3,
-  "name": "uStock Original",
-  "description": "Simulates a fake stock price based on visited websites.",
-  "version": "1.61803",
+  "manifest_version": 1,
+  "name": "uStock",
+  "description": "A self improvement extension that rewards your stock when you visit learning and healthy websites and vice verca when you visit a game/content website",
+  "version": "1",
   "permissions": [
     "tabs",
     "scripting",
